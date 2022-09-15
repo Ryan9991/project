@@ -10,6 +10,7 @@ from google.cloud import storage
 from google.cloud import bigquery
 from google.cloud import pubsub_v1
 from concurrent.futures import TimeoutError
+from notification import slack_hook
 
 # ------------ Initiate argument in command ------------
 load_dotenv()
@@ -102,7 +103,13 @@ def run():
                                 message['payloadString'] = payload
 
                             error_messages.append(message)
+
+
+                        data_err = error_messages[0]['payloadString']
+                        err_msg  = json.loads(error_messages[0]['errorMessage'])['message']
+                        err_msg  = err_msg.split(': ')[1]
                         
+                        slack_hook(data_err, err_msg)
                         bq_client.load_table_from_json(error_messages, table_error_ref, job_config=bigquery.LoadJobConfig(autodetect=True)).result()
                         print(f'Load Error to Bigquery Successful. Table: {table_error_ref}')
 
@@ -123,8 +130,9 @@ def run():
         dfs = []
         def callback(message: pubsub_v1.subscriber.message.Message) -> None:
             data        = bytes(message.data).decode('utf-8')
+            print(data)
             dfs.append(data)
-            message.ack()
+            # message.ack()
         
         streaming_pull_future = subscriber.subscribe(subscription_path, callback=callback)
 
