@@ -1,8 +1,11 @@
-FROM apache/airflow:2.2.1
+FROM apache/airflow:2.1.0-python3.8
 
-WORKDIR ${AIRFLOW_HOME}
+# update pip
+RUN python3 -m pip install --upgrade pip
 
-COPY plugins/ plugins/
-COPY requirements.txt .
+# install requirements
+COPY ./requirements.txt /tmp/requirements.txt
+RUN pip3 install --quiet --force -r /tmp/requirements.txt
 
-RUN pip3 install -r requirements.txt
+RUN python3 -m pip install --upgrade pip
+# RUN pip3 install --upgrade pip3
