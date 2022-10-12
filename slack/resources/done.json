@@ -1,0 +1,24 @@
+[
+    {
+        "type": "section",
+        "text": {
+            "type": "mrkdwn",
+            "text": "Please review this solution/access request/task, let us know if there's any feedback. You have 3 days to review before this request is closed permanently"
+        }
+    },
+    {
+        "type": "actions",
+        "elements": [
+            {
+                "type": "button",
+                "text": {
+                    "type": "plain_text",
+                    "emoji": true,
+                    "text": "Done"
+                },
+                "value": "click_me_123",
+                "action_id": "done"
+            }
+        ]
+    }
+]

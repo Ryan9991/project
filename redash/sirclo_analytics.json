@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sirclo-prod",
+  "private_key_id": "68e960e48110b73920703750577135bc16125a54",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOz+IinlWkAE6n\nm5Wv3OHpc0q0svxClEHSMpZDL8g67b3AZbFOT/HAnYRpZ1bIgsvIP71Qp9rAdIbS\nemtgPafE31PNIrHb2pfPVRNQbuZJ9pj1o3SbusOB21W8ckX2aUihAZ8XLwpIjeWP\na373TJ41Sw4CGPU7QrTfWXPepPZmFbZ4NRXJFguD5exRreePFPbsA1OnplQ8MNR3\noEVX/zJ8Co6xHArJKc1CaramCcKZYTnw9DooUgU0nxSGbUS31rh9XD6C7t7HmaDh\nWOVHkdu5iH/Ch5JvY3I4q+URMAcMFWwh+/iweMtOwcl8fJgHv8WDFRJDVGj3YG/L\nrbbuSEmRAgMBAAECggEABG3QRnSEmgAFrzI2SO9eiSzWZztECrr5E+LQc/zkeVqZ\nCzNCUk6E+16ENOupIJ8odQ/kYoNNvHxiXMSRYxy+6Ijt1wFMtMwgHykPwlO1q9TT\nnsMS3rjnsfK8Cc6ar/W+P/B0cz8nJbmgNmuTawFhi/ug/6uAKPY7QGM+h4CZ5EK9\n6Pw0gOoPb6BjSa8w+jHRg02up3kxLMWX3Tc8qAqA49gP83bgRlWGz0rI1AvVErCn\n4eMm8+sIT9DeIwfE9+MGQLNgvA1wC7K23h+PyZxDkksp41TEhZTyGJ8HSGQIMGlM\nXwntruULZMICtpxcMXMFCa03491K8KquYu2mtAsUiQKBgQDx9RWWhiFgJs3UltLN\n8WDxDirZpkmb1rzJEHPKhA2qj4EtAqKxaSnQXNVLb/GdIBXGybXOnpe2ANtii7gt\n5S9ff8i5uGUF4UsHtpVWcKCpblg2+NQW4WNIbM1XGZIaYEUwxpxZ8IGomr6X39J+\nQgv4ewGnJOJBi8HWOQZTFVr2fQKBgQDa0J9cxBWHZYRFrowunOtvXQjpbI0HkKIq\nz5R4xVJ9X13qkZhQTsydoBJXc6AazJw9hP3hFS0WxtaVFlu2fI/K2+Y/2zJeNclX\nn5rOvWWJA9OuwEdv0Tis1uHDm6EaGXBUGhxGC0FpVBZCjZpb1hRieTWD6Q9rX0kL\nR64dZ7IHpQKBgE0v3VouofkVh/Y4wzk1trJPzbWvSa4wW/tch0PkyqNNsmzUeWhV\nXyR8aQLuzEpO0QOgl6I5j7ZdIZ+XaQMjKPCzSCqPO5Mbox7rzUpNFcPXUsb+rFI8\nRrr1ErCllKlbatc7lOdQRVyvOPwkR/dFRKJZQ1a5+n/kgMrBWFYq6uDVAoGBAJY+\n+a3w1feKNTDDkW3QQbjN4PimmI/BOBi9P+1NUD7V5N7T6gn6kXUKHI3/zseYBxAW\n6VxL9hHVpjHokEDVdsaMB6WBFSyrMf0AkoOyeK2D+y3ayTJ2Lrw/L/XoPs50+TRG\nWXOe9uMj4cUBBiRY8tZK8/wHY5cOblFYfq2iLhQhAoGBAK3pB/aTyQSbPV9XWr1P\nFcHxRAr17noIbi6QnL45Rz5L0owRa3VKlgXfGBSHX6ofEQ/degQZqvJUwW7Mzy1p\n3HSoDz0LH5Uoy+zyQGaFBpDSoDv4nXTUBg0BoOn7JJF0+/76qngsqF87Ly/6fpMa\nONyJWhNBP57jgqzsbntBtMC1\n-----END PRIVATE KEY-----\n",
+  "client_email": "analytics@sirclo-prod.iam.gserviceaccount.com",
+  "client_id": "117064201926667471364",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/analytics%40sirclo-prod.iam.gserviceaccount.com"
+}
