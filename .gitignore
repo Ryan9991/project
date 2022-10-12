@@ -3,5 +3,3 @@ credentials/*
 !.gitkeep
 .env
 slack/.env
-airflow/github
-airflow/github.pub
